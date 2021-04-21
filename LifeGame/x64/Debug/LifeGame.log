@@ -1,0 +1,78 @@
+﻿  Source1.cpp
+C:\Users\hugo-\Documents\$Mes Documents\C++\LifeGame\LifeGame\Source1.cpp(22,92): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\hugo-\Documents\$Mes Documents\C++\LifeGame\LifeGame\Source1.cpp(33,84): warning C4244: 'argument' : conversion de 'float' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+C:\Users\hugo-\Documents\$Mes Documents\C++\LifeGame\LifeGame\Source1.cpp(37,107): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\hugo-\Documents\$Mes Documents\C++\LifeGame\LifeGame\Source1.cpp(37,85): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\hugo-\Documents\$Mes Documents\C++\LifeGame\LifeGame\Source1.cpp(48,72): warning C4244: 'argument' : conversion de 'float' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+C:\Users\hugo-\Documents\$Mes Documents\C++\LifeGame\LifeGame\Source1.cpp(58,94): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\hugo-\Documents\$Mes Documents\C++\LifeGame\LifeGame\Source1.cpp(59,87): warning C4244: 'argument' : conversion de 'float' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+C:\Users\hugo-\Documents\$Mes Documents\C++\LifeGame\LifeGame\Source1.cpp(62,107): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\hugo-\Documents\$Mes Documents\C++\LifeGame\LifeGame\Source1.cpp(62,85): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\hugo-\Documents\$Mes Documents\C++\LifeGame\LifeGame\Source1.cpp(63,75): warning C4244: 'argument' : conversion de 'float' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+  Fenetre.cpp
+  Génération de code en cours...
+  LifeGame.vcxproj -> C:\Users\hugo-\Documents\$Mes Documents\C++\LifeGame\x64\Debug\LifeGame.exe
