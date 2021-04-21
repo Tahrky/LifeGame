@@ -132,12 +132,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="Sources\FrameWork\Fenetre.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Headers\Generation.hpp" />
     <ClInclude Include="Headers\Regle.hpp" />
-    <ClInclude Include="Sources\FrameWork\Fenetre.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
