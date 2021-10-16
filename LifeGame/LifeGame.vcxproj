@@ -132,8 +132,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Sources\Fenetre.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Headers\Fenetre.hpp" />
     <ClInclude Include="Headers\Generation.hpp" />
     <ClInclude Include="Headers\Regle.hpp" />
   </ItemGroup>

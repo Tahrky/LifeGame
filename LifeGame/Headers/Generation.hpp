@@ -4,8 +4,8 @@
 #include <ctime>
 
 // VARIABLES GLOBALES
-const int MAXX = 300;
-const int MAXY = 300;
+const int MAXX = 100;
+const int MAXY = 100;
 
 // FONCTIONS
 // Permet de faire des tests et des mesures sur la première itération
