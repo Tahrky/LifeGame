@@ -26,7 +26,6 @@ int main ()
 	viewAnimation.setViewport (sf::FloatRect (0.0f, 0.0f, 0.8f, 1.0f));
 
 	sf::Texture textureBackgroundAnimation;
-	
 	sf::Image imageBackgroundAnimation;
 	imageBackgroundAnimation.create (mWindow.getSize ().x * 0.8f, mWindow.getSize ().y, sf::Color::Black);
 	textureBackgroundAnimation.loadFromImage (imageBackgroundAnimation);
@@ -71,18 +70,13 @@ int main ()
 	// Lifegame
 	int* tableau = new int[MAXX * MAXY];
 
-	/*
 	for (int i = 0; i < MAXX; i++)
 	{
 		for (int j = 0; j < MAXY; j++)
 		{
-			if (i == 0 || j == 0 || i == MAXX - 1 || j == MAXY - 1)
-				tableau[i * MAXY + j] = 0;
-			else
-				tableau[i * MAXY + j] = 1;
+			tableau[i * MAXY + j] = 0;
 		}
 	}
-	*/
 
 	//generationAleatoire (tableau);
 	prototypeCanonPlaneur30(tableau);
@@ -95,21 +89,23 @@ int main ()
 		for (int i = 0; i < MAXY; i++)
 			for (int j = 0; j < MAXX; j++)
 			{
+				alea = std::rand() % 4 + 1;
 				switch (tableau[i * MAXX + j])
 				{
 				case 0:
 					mColor = sf::Color::Black;
 					break;
-				case 1:
-					mColor = sf::Color::Green;
-					break;
-				case 2:
-					mColor = sf::Color::Black;
-					break;
-				case 3:
-					mColor = sf::Color::Blue;
-					break;
 				default:
+					if (alea == 1)
+						mColor = sf::Color::Green;
+					else if (alea == 2)
+						mColor = sf::Color::Blue;
+					else if (alea == 3)
+						mColor = sf::Color::Magenta;
+					else if (alea == 4)
+						mColor = sf::Color::Yellow;
+					else
+						mColor = sf::Color::Magenta;
 					break;
 				}
 
@@ -144,7 +140,7 @@ int main ()
 				mWindow.close ();
 		}		
 
-		std::this_thread::sleep_for(std::chrono::milliseconds(100));
+		std::this_thread::sleep_for(std::chrono::milliseconds(50));
 		mWindow.clear ();
 		mWindow.setView (viewAnimation);
 		mWindow.draw (spriteBackgroundAnimation);
